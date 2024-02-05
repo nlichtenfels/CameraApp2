@@ -1,4 +1,5 @@
 {
+    "id": "389e7aca-0e83-4a4e-9631-e6973edb1414",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -29,7 +30,8 @@
             "flexDirection": "column",
             "justifyContent": "center",
             "alignItems": "center",
-            "display": "flex"
+            "display": "flex",
+            "backgroundColor": "rgba(208, 2, 27, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
@@ -51,7 +53,8 @@
         "navigationOptions": {
             "headerStyle": {}
         },
-        "tabNavigationOptions": {}
+        "tabNavigationOptions": {},
+        "BackgroundColor": "rgba(208, 2, 27, 1)"
     },
     "children": [
         {
@@ -249,7 +252,6 @@
             "name": "Video1"
         }
     ],
-    "id": "389e7aca-0e83-4a4e-9631-e6973edb1414",
     "thunkableVersion": 443,
     "name": "Screen2"
 }

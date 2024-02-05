@@ -1,4 +1,5 @@
 {
+    "id": "2f5f4d0e-2928-420e-b9fd-41b2860eb45e",
     "type": "Screen",
     "translatedName": "Screen",
     "reactType": "ViewWithProps",
@@ -29,12 +30,13 @@
             "flexDirection": "column",
             "justifyContent": "center",
             "alignItems": "center",
-            "display": "flex"
+            "display": "flex",
+            "backgroundColor": "rgba(208, 2, 27, 1)"
         },
         "ShowStatusBar": true,
         "StatusBarStyle": "default",
         "TranslucentStatusBar": false,
-        "StatusBarColor": "rgba(0,0,0,0.53)",
+        "StatusBarColor": "rgba(0, 0, 0, 0)",
         "TabNavigationOptions": {
             "tabBarVisible": true
         },
@@ -51,7 +53,8 @@
         "navigationOptions": {
             "headerStyle": {}
         },
-        "tabNavigationOptions": {}
+        "tabNavigationOptions": {},
+        "BackgroundColor": "rgba(208, 2, 27, 1)"
     },
     "children": [
         {
@@ -607,7 +610,6 @@
             "name": "Label1"
         }
     ],
-    "id": "2f5f4d0e-2928-420e-b9fd-41b2860eb45e",
     "thunkableVersion": 443,
     "name": "Screen1"
 }
